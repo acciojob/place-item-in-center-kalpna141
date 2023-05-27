@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-wrap:wrap;
+	width:200px;
+	height:200px;
+	justify-content:center;
+	align-item:center;
+}
+body{
+	display:flex;
+	justify-content:center;
+	align-item:center;
+	height:100vh;
+	margin:0;
+	
+}
+.item-1{
+	text-align:center;
+	order:1;
+	width:100%;
+}
+.item{
+	flex:1 0 50%;
+	background:lightblue;
+	border:1px solid black;
+}
