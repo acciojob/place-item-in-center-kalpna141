@@ -6,12 +6,12 @@
 	width:200px;
 	height:200px;
 	justify-content:center;
-	align-item:center;
+	align-items:center;
 }
 body{
 	display:flex;
 	justify-content:center;
-	align-item:center;
+	align-items:center;
 	height:100vh;
 	margin:0;
 	
